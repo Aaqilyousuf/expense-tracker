@@ -6,22 +6,21 @@ The Expense Tracker App is a web application built using React and Firebase, des
 
 
 Features
-Real-time Data Sync: Utilizes Firebase's real-time database to ensure seamless synchronization of financial data across multiple devices.
+ -  Real-time Data Sync: Utilizes Firebase's real-time database to ensure seamless synchronization of financial data across multiple devices.
 
 
-User Authentication: Securely manages user accounts and authentication using Firebase Authentication, ensuring privacy and data security.
+ -  User Authentication: Securely manages user accounts and authentication using Firebase Authentication, ensuring privacy and data security.
 
 
-Transaction Management: Allows users to easily add, edit, and delete transactions, providing a comprehensive view of their financial activities.
+ -  Transaction Management: Allows users to easily add, edit, and delete transactions, providing a comprehensive view of their financial activities.
 
 
-Category Tagging: Categorizes transactions into customizable categories, enabling users to analyze spending patterns and make informed decisions.
+ -  Category Tagging: Categorizes transactions into customizable categories, enabling users to analyze spending patterns and make informed decisions.
 
 
-Interactive Dashboard: Presents an intuitive dashboard with charts and graphs to offer a visual representation of income, expenses, and overall financial trends.
 
 
-Export Reports: Enables users to export financial reports in various formats (CSV, PDF) for record-keeping and analysis.
+
 
 
 Getting Started
