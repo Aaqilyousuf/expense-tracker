@@ -16,7 +16,7 @@ const Auth = () => {
       await signInWithEmailAndPassword(auth, email, password);
       // console.log(auth?.currentUser);
       // console.log("Dei login aaguthuda navigate tha aga matinguthu !");
-      console.log(currentUser.displayName);
+      // console.log(currentUser.displayName);
       // const authInfo = {
       //   userID: currentUser.uid,
       //   name: auth.currentUser.displayName,

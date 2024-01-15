@@ -6,7 +6,7 @@ import useGetUserData from "./useGetUserData";
 
 const useAddTranscation = () => {
   const addTransactionRef = collection(db, "transcation");
-  const { userID } = useGetUserData();
+  const { userID, name } = useGetUserData();
   const addTransaction = async ({
     description,
     transactionType,
@@ -16,6 +16,7 @@ const useAddTranscation = () => {
       try {
         await addDoc(addTransactionRef, {
           userID,
+          name,
           description,
           transactionType,
           transactionAmount,

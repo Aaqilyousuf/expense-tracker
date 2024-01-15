@@ -12,9 +12,9 @@ import useGetUserData from "./useGetUserData";
 const useGetTransaction = () => {
   const [transactions, setTransactions] = useState([]);
   const [transactionTotal, setTransactionTotal] = useState({
-    balance: 0.0,
-    income: 0.0,
-    expense: 0.0,
+    balance: 0,
+    income: 0,
+    expense: 0,
   });
   const transactionCollection = collection(db, "transcation");
   const { userID } = useGetUserData();
@@ -23,7 +23,7 @@ const useGetTransaction = () => {
     let unsub;
     let totalIcome = 0;
     let totalExpense = 0;
-    console.log(userID);
+    // console.log(userID);
     try {
       const queryTransaction = query(
         transactionCollection,
@@ -43,7 +43,6 @@ const useGetTransaction = () => {
           } else {
             totalIcome += Number(data.transactionAmount);
           }
-          console.log(totalExpense, totalIcome);
         });
 
         setTransactions(docs);
