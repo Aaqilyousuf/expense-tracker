@@ -54,6 +54,9 @@ Open http://localhost:3000 to view the app in your browser.
 Contributing
 Contributions are welcome! Please refer to the Contribution Guidelines for more details.
 
+Live page
+Open https://expense-tracker-9953a.web.app/auth
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
